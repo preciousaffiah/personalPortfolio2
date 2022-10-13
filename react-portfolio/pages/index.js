@@ -46,13 +46,13 @@ export default function Home() {
             <h2 className='lg:text-5xl text-3xl py-2 text-teal-600 font-medium md:text-6xl'>Hi, I am Precious Affiah</h2>
             <h3 className='lg:text-3xl md:text-3xl text-xl py-2 text-white'>A web developer.</h3>
             <div className=' mx-auto w-auto lg:w-5/12 md:w-4/12'>
-              <Image src={myimage} />
+              <Image src={myimage} alt={'myimage'} />
             </div>
           </div>
           <div className='lg:flex gap-10 items-center py-8'>
             <div className='text-center rounded-xl hidden lg:block'>
               <div className='mx-auto' style={{ width: '350px' }}>
-                <Image src={myimage2} />
+                <Image src={myimage2} alt={'myimage'}/>
               </div>
             </div>
             <div className='text-center rounded-xl'>
@@ -124,7 +124,7 @@ export default function Home() {
             </ul>
             <div className='lg:flex gap-10 py-8'>
               <div className='lg:m-0 mb-12 text-center p-4 rounded-2xl border-2 md:w-2/3 w-auto lg:w-1/3 mx-auto'>
-                <Image src={restaurant} className='rounded-lg'  width={'100%'} height={'100%'} layout='responsive' />
+                <Image src={restaurant} alt={'restaurant'} className='rounded-lg'  width={'100%'} height={'100%'} layout='responsive' />
 
                 <p className='pt-4'> 
                 <h5 className='font-bold text-white text-2xl'>Pizza restaurant</h5>
@@ -135,25 +135,25 @@ export default function Home() {
                 </p>
               </div>
               <div className='lg:m-0 mb-12 text-center p-4 rounded-2xl border-2 md:w-2/3 w-auto lg:w-1/3 mx-auto'>
-                <Image src={threesixfive} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
+                <Image src={threesixfive} alt={'threesixfive'} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
                 <p className='pt-4'>
                 <h5 className='font-bold text-white text-2xl'>Article web application</h5>
                 365 is an E-ticketing platform where event organizers post their events and pay a fee to the platform so that the users can purchase an e-ticket for the event of their choice with the use of a bar code for each ticket bought and 365 also helps organizers advertise their events on the 365 social media platforms for no extra cost. This project was built with HTML, CSS, BOOTSTRAP, Javascript, NodeJs and MongoDB.
                 </p>
                 <p className='m-auto bg-gradient-to-r from-cyan-500 to-teal-500 rounded-md p-2 mt-2 text-center w-1/2'>
-                <a href='https://365eventcompany.com/' target={'_blank'}>
+                <a href='https://365eventcompany.com/' target={'_blank'} rel='noreferrer'>
                 View Website
                 </a>
                 </p>
               </div>
               <div className='lg:m-0 mb-12 text-center p-4 rounded-2xl border-2 md:w-2/3 w-auto lg:w-1/3 m-auto'>
-                <Image src={blog} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
+                <Image src={blog} alt={'blog'} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
                 <p className='pt-4'>
                 <h5 className='font-bold text-white text-2xl'>365 E-ticketing web application</h5>
                 The article/blog web application was made to let users post their articles and view articles posted by other users. The article/blog web application was made with the google login API, Node.JS for backend, ReactJS for frontend and MongoDB for database.
                 </p>
                 <p className='m-auto bg-gradient-to-r from-cyan-500 to-teal-500 rounded-md p-2 mt-2 text-center w-5/12'>
-                <a href='https://github.com/preciousaffiah' target={'_blank'}>
+                <a href='https://github.com/preciousaffiah' target={'_blank'} rel='noreferrer'>
                 Github
                 </a>
                 </p>
@@ -170,31 +170,31 @@ export default function Home() {
               </ul>
               <div className=' justify-center w-100'>
                 <ul className='lg:text-4xl lg:py-2 lg:flex md:flex md:text-3xl justify-between text-xl block w-100 pt-0'>
-                  <a href='https://www.linkedin.com/in/precious-affiah-008753238/' target={'_blank'}>
+                  <a href='https://www.linkedin.com/in/precious-affiah-008753238/' target={'_blank'} rel='noreferrer'>
                   <li className='flex -mt-1.5 lg:justify-start justify-center'>
                     LinkedIn
                     <BsLinkedin/>
                     </li>
                   </a>
-                  <a href='https://github.com/preciousaffiah' target={'_blank'}>
+                  <a href='https://github.com/preciousaffiah' target={'_blank'} rel='noreferrer'>
                     <li className='flex lg:justify-start justify-center'>
                     Github
                     <BsGithub/>
                     </li>
                   </a>
-                  <a href='https://twitter.com/The1homegirl' target={'_blank'}>
+                  <a href='https://twitter.com/The1homegirl' target={'_blank'} rel='noreferrer'>
                     <li className='flex lg:justify-start justify-center'>
                     Twitter
                     <BsTwitter/>
                     </li>
                   </a>
-                  <a href='https://www.instagram.com/preciousaffiah/' target={'_blank'}>
+                  <a href='https://www.instagram.com/preciousaffiah/' target={'_blank'} rel='noreferrer'>
                     <li className='flex lg:justify-start justify-center'>
                     Instagram
                     <BsInstagram/>
                     </li>
                   </a>
-                  <a href='mailto:preciousaffiah205@gmail.com' target={'_blank'}>
+                  <a href='mailto:preciousaffiah205@gmail.com' target={'_blank'} rel='noreferrer'>
                     <li className='flex lg:justify-start justify-center'>
                     Email
                     <AiFillMail className='flex mt-1.5'/>
