@@ -30,8 +30,8 @@ export default function Home() {
       </Head>
       <main className='px-10 md:px-5 lg:px-40'>
         <section className='min-h-screen'>
-          <div class="relative">
-            <div class="fixed top-4 left-0 right-0">
+          <div className="relative">
+            <div clasName="fixed top-4 left-0 right-0">
               <nav className='lg:py-4 py-3 mb-2 flex justify-between lg:px-20 px-4 rounded-full'>
                 <h1 className='lg:text-xl text-sm font-burtons text-teal-500'>developedbyprecious</h1>
                 <ul className='flex items-center'>
