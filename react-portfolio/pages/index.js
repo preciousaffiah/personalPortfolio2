@@ -170,28 +170,37 @@ export default function Home() {
               </ul>
               <div className=' justify-center w-100'>
                 <ul className='lg:text-4xl lg:py-2 lg:flex md:flex md:text-3xl justify-between text-xl block w-100 pt-0'>
+                  <a href='https://www.linkedin.com/in/precious-affiah-008753238/' target={'_blank'}>
                   <li className='flex -mt-1.5 lg:justify-start justify-center'>
-                  LinkedIn
-                  <BsLinkedin/>
-                  </li>
-                  <li className='flex lg:justify-start justify-center'>
-                  Github
-                  <BsGithub/>
-                  </li>
-                  <li className='flex lg:justify-start justify-center'>
-                  Twitter
-                  <BsTwitter/>
-                  </li>
-                  <li className='flex lg:justify-start justify-center'>
-                  Instagram
-                  <BsInstagram/>
-                  </li>
-                  <li className='flex lg:justify-start justify-center'>
-                  Email
-                  <AiFillMail className='flex mt-1.5'/>
-                  </li>
+                    LinkedIn
+                    <BsLinkedin/>
+                    </li>
+                  </a>
+                  <a href='https://github.com/preciousaffiah' target={'_blank'}>
+                    <li className='flex lg:justify-start justify-center'>
+                    Github
+                    <BsGithub/>
+                    </li>
+                  </a>
+                  <a href='https://twitter.com/The1homegirl' target={'_blank'}>
+                    <li className='flex lg:justify-start justify-center'>
+                    Twitter
+                    <BsTwitter/>
+                    </li>
+                  </a>
+                  <a href='https://www.instagram.com/preciousaffiah/' target={'_blank'}>
+                    <li className='flex lg:justify-start justify-center'>
+                    Instagram
+                    <BsInstagram/>
+                    </li>
+                  </a>
+                  <a href='mailto:preciousaffiah205@gmail.com' target={'_blank'}>
+                    <li className='flex lg:justify-start justify-center'>
+                    Email
+                    <AiFillMail className='flex mt-1.5'/>
+                    </li>
+                  </a>
                 </ul>
-                
               </div>
             </div>
           </section>
